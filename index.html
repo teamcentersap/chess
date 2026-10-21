@@ -3,120 +3,207 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Privacy Policy &amp; Terms of Use — Chess King Escape</title>
+  <meta name="description" content="Privacy Policy and Terms of Use for Chess King Escape." />
+  <title>Chess King Escape — Privacy &amp; Terms</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.5; max-width: 40rem; margin: 2rem auto; padding: 0 1.25rem 3rem; color: #1a1a1a; }
-    h1 { font-size: 1.6rem; }
-    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
-    p, li { color: #333; }
-    ul { padding-left: 1.25rem; }
-    .meta { color: #666; font-size: 0.9rem; }
-    nav { margin: 1.25rem 0 2rem; padding: 0.85rem 1rem; background: #f4f4f5; border-radius: 8px; font-size: 0.95rem; }
-    nav a { color: #1a56db; margin-right: 1rem; }
-    .support { margin: 1rem 0 1.5rem; padding: 0.85rem 1rem; background: #eef6ff; border-radius: 8px; }
-    hr { border: none; border-top: 1px solid #ddd; margin: 2.5rem 0; }
+    :root {
+      --ink: #14213d;
+      --muted: #5c6578;
+      --line: #e6e9ef;
+      --bg: #f7f8fb;
+      --card: #ffffff;
+      --accent: #1d4ed8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 500px at 10% -10%, #dbe7ff 0%, transparent 55%),
+        radial-gradient(900px 400px at 100% 0%, #efe8d8 0%, transparent 50%),
+        var(--bg);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-size: clamp(1.75rem, 4vw, 2.25rem);
+      font-weight: 600;
+      line-height: 1.2;
+      margin: 0 0 0.65rem;
+    }
+    .lede {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      margin: 1.5rem 0 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.95rem;
+    }
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover { text-decoration: underline; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.5rem 1.35rem;
+      margin: 1.25rem 0;
+      box-shadow: 0 1px 0 rgba(20, 33, 61, 0.03);
+    }
+    h2 {
+      font-size: 1.35rem;
+      margin: 0 0 0.75rem;
+    }
+    h3 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin: 1.5rem 0 0.4rem;
+      letter-spacing: 0.01em;
+    }
+    p { margin: 0.55rem 0; }
+    ul {
+      margin: 0.5rem 0 0.75rem;
+      padding-left: 1.2rem;
+    }
+    li { margin: 0.25rem 0; }
+    .meta {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer {
+      margin-top: 2rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent); }
   </style>
 </head>
 <body>
-  <h1>Chess King Escape</h1>
-  <p class="meta">Privacy Policy &amp; Terms of Use · Last updated 21 October 2026 (free v1)</p>
+  <div class="wrap">
+    <header>
+      <p class="eyebrow">Chess King Escape</p>
+      <h1>Privacy Policy &amp; Terms of Use</h1>
+      <p class="lede">Free offline chess and king-escape puzzles. No ads. No account. Progress stays on your device.</p>
+      <p class="meta">Last updated 21 October 2026 · Free v1 release</p>
+      <nav>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Use</a>
+      </nav>
+    </header>
 
-  <div class="support">
-    <strong>Support:</strong>
-    <a href="mailto:teamcentersap@gmail.com">teamcentersap@gmail.com</a>
+    <section id="privacy" class="card">
+      <h2>Privacy Policy</h2>
+      <p>Chess King Escape is an offline chess and puzzle game. This notice explains what is stored on the device and what is not collected.</p>
+
+      <h3>App Store privacy labels</h3>
+      <p>For this release you can declare <strong>Data Not Collected</strong> in App Store Connect if nothing leaves the device. We do not collect name, email, location, contacts, or browsing history.</p>
+
+      <h3>No account</h3>
+      <p>You do not create an account or sign in. There is no player ID linked to a cloud profile.</p>
+
+      <h3>No ads, no tracking</h3>
+      <p>No advertising SDK, no IDFA / ATT tracking prompt, no cross-app tracking.</p>
+
+      <h3>No in-app purchases</h3>
+      <p>This release is free. No StoreKit purchases, no payment data.</p>
+
+      <h3>Gameplay progress — stored only on this device</h3>
+      <p>Level progress is saved locally so you can continue later. That typically includes:</p>
+      <ul>
+        <li>Adventure levels completed and star counts</li>
+        <li>Max unlocked level / continue point</li>
+        <li>Chase best wave / escapes / run counts</li>
+        <li>Daily challenge date and streak (device-local)</li>
+        <li>Classic Chess unfinished game (FEN / move list) if you resume</li>
+        <li>Settings (audio, haptics, accessibility, computer speed)</li>
+        <li>Optional achievement flags and simple play stats on device</li>
+      </ul>
+      <p>This progress is not uploaded to our servers. Deleting the app usually deletes this local save.</p>
+
+      <h3>What “levels” mean for privacy</h3>
+      <p>Progress is optional. Completing every level is not required. Privacy only explains that any progress you choose to make stays on your device.</p>
+
+      <h3>Analytics / crash reports</h3>
+      <p>This release does not include third-party analytics or crash SDKs that send gameplay or device identifiers to us.</p>
+
+      <h3>Internet</h3>
+      <p>Play does not require the internet. Opening the App Store page or OS updates is handled by Apple, not by our game servers.</p>
+
+      <h3>Permissions</h3>
+      <p>We do not request camera, microphone, photos, contacts, or location to play.</p>
+
+      <h3>Children</h3>
+      <p>General audience chess / puzzles. No chat, no public UGC, no social graph.</p>
+
+      <h3>Your choices</h3>
+      <p>Clear progress by removing the app (or clearing app data via device settings where available). You can stop playing anytime.</p>
+
+      <h3>Changes</h3>
+      <p>If a future update adds online features, IAP, or analytics, we will update this policy and App Store privacy labels.</p>
+    </section>
+
+    <section id="terms" class="card">
+      <h2>Terms of Use</h2>
+      <p>By using Chess King Escape you agree to play for personal, non-commercial entertainment and education. The app is provided “as is.”</p>
+      <p>This release is free, with no in-app purchases and no ads. You may stop playing or delete the app at any time.</p>
+
+      <h3>Responsible play</h3>
+      <p>Chess King Escape is a calm puzzle / board game. It is not designed to push endless spending, gambling, or compulsive play.</p>
+      <p>There are no loot boxes, no real-money gambling, no random paid rewards, and no pressure to keep buying content.</p>
+      <p>Completing all Adventure levels is optional. Nothing requires you to clear every world, chase wave, or daily streak.</p>
+      <p>Please take breaks. If you feel tired or frustrated, pause or put the device down.</p>
+
+      <h3>Healthy habits</h3>
+      <p>Set your own limits. Use device Screen Time / Downtime if you want system-level limits. This app does not hide the exit, force sessions, or punish you for leaving.</p>
+
+      <h3>Fairness</h3>
+      <p>Adventure levels are designed to be solvable. Classic Chess follows standard rules. Outcomes are based on play, not pay-to-win.</p>
+
+      <h3>Intellectual property</h3>
+      <p>App name, art, and software are for use within this product. Chess rules themselves are public domain knowledge.</p>
+
+      <h3>Limitation</h3>
+      <p>We are not liable for indirect damages from using the app. Your statutory consumer rights still apply where required by law.</p>
+
+      <h3>Privacy</h3>
+      <p>See the <a href="#privacy">Privacy Policy</a> above. Progress stays on your device in this release.</p>
+    </section>
+
+    <footer>
+      <p><strong>Support:</strong> <a href="mailto:teamcentersap@gmail.com">teamcentersap@gmail.com</a></p>
+      <p>© 2026 Chess King Escape</p>
+    </footer>
   </div>
-
-  <nav>
-    <a href="#privacy">Privacy Policy</a>
-    <a href="#terms">Terms of Use</a>
-  </nav>
-
-  <section id="privacy">
-    <h1>Privacy Policy</h1>
-    <p>Chess King Escape is an offline chess and puzzle game. This notice explains what is stored on the device and what is not collected.</p>
-
-    <h2>App Store privacy labels</h2>
-    <p>For this release you can declare <strong>Data Not Collected</strong> in App Store Connect if nothing leaves the device. We do not collect name, email, location, contacts, or browsing history.</p>
-
-    <h2>No account</h2>
-    <p>You do not create an account or sign in. There is no player ID linked to a cloud profile.</p>
-
-    <h2>No ads, no tracking</h2>
-    <p>No advertising SDK, no IDFA / ATT tracking prompt, no cross-app tracking.</p>
-
-    <h2>No in-app purchases</h2>
-    <p>This release is free. No StoreKit purchases, no payment data.</p>
-
-    <h2>Gameplay progress — stored only on this device</h2>
-    <p>Level progress is saved locally so you can continue later. That typically includes:</p>
-    <ul>
-      <li>Which Adventure levels you completed and star counts</li>
-      <li>Max unlocked level / continue point</li>
-      <li>Chase best wave / escapes / run counts</li>
-      <li>Daily challenge date and streak (device-local)</li>
-      <li>Classic Chess unfinished game (FEN / move list) if you resume</li>
-      <li>Settings: music, SFX, mute, haptics, high contrast, reduced motion, show threats, computer speed</li>
-      <li>Optional achievement unlock flags and simple play stats (moves, wins) on device</li>
-    </ul>
-    <p>This progress is not uploaded to our servers. Deleting the app usually deletes this local save.</p>
-
-    <h2>What “levels” mean for privacy</h2>
-    <p>Progress is optional product design. Completing every level is not required. Privacy only explains that any progress you choose to make stays on your device. Responsible play belongs in the <a href="#terms">Terms of Use</a>.</p>
-
-    <h2>Analytics / crash reports</h2>
-    <p>This release does not include third-party analytics or crash SDKs that send gameplay or device identifiers to us.</p>
-
-    <h2>Internet</h2>
-    <p>Play does not require the internet. Opening the App Store page or OS updates is handled by Apple, not by our game servers.</p>
-
-    <h2>Permissions</h2>
-    <p>We do not request camera, microphone, photos, contacts, or location to play.</p>
-
-    <h2>Children</h2>
-    <p>General audience chess / puzzles. No chat, no public UGC, no social graph.</p>
-
-    <h2>Your choices</h2>
-    <p>Clear progress by removing the app (or clearing app data via device settings where available). You can stop playing anytime.</p>
-
-    <h2>Changes</h2>
-    <p>If a future update adds online features, IAP, or analytics, we will update this policy and App Store privacy labels.</p>
-
-    <h2>Contact</h2>
-    <p>Privacy questions: <a href="mailto:teamcentersap@gmail.com">teamcentersap@gmail.com</a></p>
-  </section>
-
-  <hr />
-
-  <section id="terms">
-    <h1>Terms of Use</h1>
-    <p>By using Chess King Escape you agree to play for personal, non-commercial entertainment and education. The app is provided “as is.”</p>
-    <p>This release is free, with no in-app purchases and no ads. You may stop playing or delete the app at any time.</p>
-
-    <h2>Responsible play — not designed to be addictive</h2>
-    <p>Chess King Escape is a calm puzzle / board game. It is not designed to push endless spending, gambling, or compulsive play.</p>
-    <p>There are no loot boxes, no real-money gambling, no random paid rewards, and no pressure to keep buying content.</p>
-    <p>Completing all Adventure levels is optional. Nothing in the app requires you to clear every world, chase wave, or daily streak.</p>
-    <p>Please take breaks. If you feel tired or frustrated, pause, switch modes, or put the device down. Play should stay enjoyable.</p>
-
-    <h2>Healthy habits</h2>
-    <p>Set your own limits — for example, a few puzzles, one Classic game, or a short Chase run.</p>
-    <p>Use device Screen Time / Downtime tools if you want system-level limits.</p>
-    <p>This app does not use dark patterns that hide the exit, force sessions, or punish you for leaving.</p>
-
-    <h2>Fairness</h2>
-    <p>Adventure levels are designed to be solvable. Classic Chess follows standard rules. Outcomes are based on play, not hidden pay-to-win.</p>
-
-    <h2>Intellectual property</h2>
-    <p>App name, art, and software are for use within this product. Chess rules themselves are public domain knowledge.</p>
-
-    <h2>Limitation</h2>
-    <p>We are not liable for indirect damages from using the app. Your statutory consumer rights still apply where required by law.</p>
-
-    <h2>Privacy</h2>
-    <p>See the <a href="#privacy">Privacy Policy</a> above for how data is handled. Progress stays on your device in this release.</p>
-
-    <h2>Contact</h2>
-    <p>Questions about these terms: <a href="mailto:teamcentersap@gmail.com">teamcentersap@gmail.com</a></p>
-  </section>
 </body>
 </html>
